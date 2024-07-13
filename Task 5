@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>   <h1 id = "Web"> Web Technologies</h1> </center>
+    <center><div>
+       <button>  Change Heading </button> 
+     </div> </center>
+
+<script>
+    const head = document.getElementById("Web");
+    head.textContent = "4.0 Technologies";
+    head.style.color = "blue";
+
+
+</script>
+</body>
+</html>
